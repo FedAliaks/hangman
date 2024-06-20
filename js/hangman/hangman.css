@@ -1,0 +1,31 @@
+.svg-fill_red {
+  fill: red;
+}
+
+.svg-stroke_red {
+  stroke: red;
+}
+
+.title {
+  margin: 0 auto;
+}
+
+.hangman-block {
+  height: 97vh;
+}
+.hangman-svg {
+  height: 90vh;
+}
+
+@media screen and (max-width: 768px) {
+  .title {
+    display: none;
+  }
+
+  .hangman-block {
+    height: 55vh;
+  }
+  .hangman-svg {
+    height: 50vh;
+  }
+}
